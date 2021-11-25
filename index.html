@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <div class="modal-relat">
     <header class="header">
       <div class="container headers-section">
         <nav class="header-navigation">
@@ -26,7 +27,7 @@
           >
           <ul class="list navigation-list header-section">
             <li class="header-item">
-              <a class="link header-link" href="./index.html">Студия</a>
+              <a class="link header-link active" href="./index.html">Студия</a>
             </li>
             <li class="header-item">
               <a class="link header-link" href="./portfolio.html">Портфолио</a>
@@ -52,6 +53,7 @@
       </div>
     </header>
     <main>
+      
       <section class="hero hero-section">
         <div class="container hero-container">
           <h1 class="title-hero">Эффективные решения для вашего бизнеса</h1>
@@ -112,30 +114,40 @@
           </ul>
         </div>
       </section>
+    </div>
       <section class="about-us section">
         <div class="container container-about">
           <h2 class="about-us-h">Чем мы занимаемся</h2>
           <ul class="about-us-lists">
             <li class="list">
+              <div class="thumb-about-us">
               <img
                 src="./img/box-1.jpg"
                 alt="человек печатает на клавиатуре"
                 width="370"
               />
+              <p class="descript-about-us">Десктопные приложения</p>
+            </div>
             </li>
             <li class="list">
+              <div class="thumb-about-us">
               <img
                 src="./img/box-2.jpg"
                 alt="человек с смартфоном и ноутбуком"
                 width="370"
               />
+              <p class="descript-about-us">Мобильные приложения</p>
+            </div>
             </li>
             <li class="list">
+              <div class="thumb-about-us">
               <img
                 src="./img/box-3.jpg"
                 alt="человек работает на планшете"
                 width="370"
               />
+              <p class="descript-about-us">Дизайнерские решения</p>
+            </div>
             </li>
           </ul>
         </div>
@@ -381,8 +393,7 @@
     </footer>
     <div data-modal class="backdrop is-hidden">
       <div class="modal">
-        <p>jsjdjd</p>
-<button data-modal-close class="btn-close">
+        <button data-modal-close class="btn-close ">
   <svg class="icon-close" width="30" height="30">
     <use href="./img/icons.svg#icon-close"></use>
   </svg>
